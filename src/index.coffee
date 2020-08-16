@@ -1,7 +1,7 @@
 toString = Buffer::toString
 Buffer::toString = ->
   if arguments[0] == 'base64url'
-    return toString.call(@,'base64').replace(/=+/g, "").replace(/\+/g, "-").replace(/\//g, "_")
+    return toString.call(@,'base64').replace(/=+$/g, "").replace(/\+/g, "-").replace(/\//g, "_")
   toString.apply @, arguments
 
 _from = Buffer.from
