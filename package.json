@@ -1,6 +1,6 @@
 {
   "name": "buffer.base64url",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "repository": "https://github.com/rmw-lib/buffer.base64url",
   "author": "i@rmw.link",
   "license": "MulanPSL-2.0",
